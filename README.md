@@ -1,8 +1,8 @@
 # 📱 Apple-Style Calculator
 
-A simple, responsive calculator web application designed to mimic the aesthetic of the iOS Calculator. Built with pure HTML, CSS, and JavaScript.
+A simple, responsive calculator web application designed to mimic the aesthetic of the iOS Calculator. Built with HTML, CSS, and JavaScript.
 
-![Calculator Preview](https://via.placeholder.com/600x400?text=Calculator+Preview+Image) 
+
 ## 🚀 Live Demo
 **[Click here to view the Live Demo](https://calculatorjs-wheat.vercel.app/)**
 ## 🛠️ Technologies Used
