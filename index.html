@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simp Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="calculator">
+        <input type="text" id="display" disabled placeholder="0">
+        
+        <div class="buttons">
+            <button onclick="clearDisplay()" class="btn-grey">AC</button>
+            <button onclick="appendToDisplay('')" class="btn-grey">+/-</button> <button onclick="appendToDisplay('%')" class="btn-grey">%</button>
+            <button onclick="appendToDisplay('/')" class="btn-orange">÷</button>
+            
+            <button onclick="appendToDisplay('7')" class="btn-dark">7</button>
+            <button onclick="appendToDisplay('8')" class="btn-dark">8</button>
+            <button onclick="appendToDisplay('9')" class="btn-dark">9</button>
+            <button onclick="appendToDisplay('*')" class="btn-orange">×</button>
+            
+            <button onclick="appendToDisplay('4')" class="btn-dark">4</button>
+            <button onclick="appendToDisplay('5')" class="btn-dark">5</button>
+            <button onclick="appendToDisplay('6')" class="btn-dark">6</button>
+            <button onclick="appendToDisplay('-')" class="btn-orange">−</button>
+            
+            <button onclick="appendToDisplay('1')" class="btn-dark">1</button>
+            <button onclick="appendToDisplay('2')" class="btn-dark">2</button>
+            <button onclick="appendToDisplay('3')" class="btn-dark">3</button>
+            <button onclick="appendToDisplay('+')" class="btn-orange">+</button>
+            
+            <button onclick="appendToDisplay('0')" class="btn-dark btn-zero">0</button>
+            <button onclick="appendToDisplay('.')" class="btn-dark">.</button>
+            <button onclick="calculate()" class="btn-orange">=</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
